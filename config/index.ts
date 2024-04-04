@@ -1,0 +1,2 @@
+const apiDomain = "";
+export { apiDomain };

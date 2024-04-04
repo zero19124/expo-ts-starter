@@ -1,0 +1,17 @@
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "strict": true,
+    "paths": {
+      "@/*": ["./*"],
+      "@/component/*": ["./components/*"],
+      "@/theme/*": ["./theme/*"],
+      "@/assets/*": ["./assets/*"],
+      "@/hooks/*": ["./hooks/*"],
+      "@/stores/*": ["./stores/*"],
+      "@/util/*": ["./utils/*"],
+    }
+  },
+  "include": ["**/*.ts", "**/*.tsx", ".expo/types/**/*.ts", "expo-env.d.ts"],
+  "files": ["/@types/tailwindcss-react-native.d.ts"]
+}
